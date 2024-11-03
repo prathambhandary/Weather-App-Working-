@@ -1,0 +1,282 @@
+body{
+    background-color: #c1c1c1;
+    display: grid;
+    place-items: center;
+    color: #280b45;
+    height: 100vh;
+}
+
+.mobile{
+    position: relative;
+    height: 90vh;
+    width: 310px;
+    background-color: #ffed9d;
+    border: 5px solid #000000;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.notificationbar{
+    height: 3%;
+}
+
+.titlebar{
+    height: 7%;
+    display: flex;
+}
+
+.top-logo{
+    height: 100%;
+    width: 120px;
+    background-image: url(../resources/logo1.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 15px;
+}
+.gap-title{
+    width: 80px;
+}
+.funct{
+    width: 110px;
+    display: flex;
+}
+.fuct1{
+    width: 50%;
+    background-image: url(../resources/download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fuct2{
+    width: 50%;
+    background-image: url(../resources/ham.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search-bar{
+    display: flex;
+    place-items: center;
+    background-color: #fff3bd;
+    height: 7%;
+    border-radius: 50px;
+}
+.search-icon{
+    height: 35px;
+    width: 45px;
+    border-radius: 50px;
+    background-image: url(../resources/search.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffed9d;
+    position: relative;
+    left: 0px;
+    border: 5px solid #fff3bd;
+}
+.search{
+    height: 40px;
+    border: 0;
+    width: 200px;
+    background-color: #fff3bd;
+}
+.btn{
+    height: 40px;
+    width: 45px;
+    border-radius: 50px;
+    background-image: url(../resources/go.png);
+    background-size: contain;
+    background-position: center;
+    border: 0;
+}
+.main{
+    padding: 10px;
+    background-color: #fff3bd;
+    border-radius: 30px;
+    position: relative;
+    top: 20px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.place-name{
+    padding-left: 10px;
+    font-size: xx-large;
+    background-color: #ffe882;
+    border-radius: 10px;
+    font-family: titillium web;
+    color: #280b45;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.seperations{
+    display: flex;
+    color: #280b45;
+}
+
+.seperation1, .seperation2{
+    background-color: #fff3bd;;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 5px;
+    color: #280b45;
+}
+
+.box1{
+    font-family: "Titillium Web";
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #ffe882;
+    padding-left: 20px;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+.temp-big{
+    font-weight: bold;
+    font-size: 45px;
+    position: relative;
+    top: -20px;
+}
+.high-low{
+    font-size: small;
+    position: relative;
+    top: -35px;
+}
+.box101{
+    display: flex;
+}
+.temp-image{
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: -25px;
+}
+.box-gap{
+    height: 10px;
+}
+.box2{
+    font-family: "Titillium Web";
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px solid;
+    background-color: #ffe882;
+    padding-left: 20px;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    height: 155px;
+}
+.wind-icon{
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+    background-image: url(../resources/wind.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pressure-icon{
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+    background-image: url(../resources/pressure.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.big-seven{
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    height: 30px;
+}
+.small-mph{
+    font-size: 12.5px;
+    font-weight: 0;
+    position: relative;
+    top: 20px;
+}
+.wind-type{
+    font-size: small;
+    position: relative;
+    top: 5px;
+}
+
+.sun-bottom{
+    font-family: "Titillium Web";
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px solid;
+    background-color: #ffe882;
+    padding-left: 20px;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.seperation2{
+    padding-left: 10px;
+}
+
+.sunset-main{
+    text-align: right;
+}
+.sunrise-main{
+    text-align: left;
+}
+.sun-icon{
+    display: flex;
+    width: 100px;
+    background-color: transparent;
+}
+.sunrise-text, .sunset-text{
+    color: #280b45;
+}
+.sunrise-time, .sunset-time{
+    font-size: 30px;
+    position: relative;
+    top: -8px;
+}
+
+.sunrise-icon{
+    width: 50%;
+    background-image: url(../resources/sunrise.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sunset-icon{
+    width: 50%;
+    background-image: url(../resources/sunset.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.search::placeholder{
+    font-family: "Titillium Web";
+}
+.search{
+    font-style: italic;
+    color: #280b45; 
+    position: relative;
+    top: -5px;
+}
+.search:focus {
+    border: 0px solid #280b45; /* Border color while typing */
+    color: #280b45; /* Font color while typing */
+    font-family: "Titillium Web";
+    background-color: transparent;
+}
+.btn{
+    position: relative;
+    top: 7.5px;
+}
